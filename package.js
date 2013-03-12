@@ -5,5 +5,5 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.add_files("marked/lib/marked.js", ['client', 'server']);
+  api.add_files("marked.js", ['client', 'server']);
 });
